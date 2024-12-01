@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build output
+dist/
+build/
+.tmp/
+
+# Vercel & Deployment files
+.vercel/
+.now/
+
+# Optional npm cache directory
+.npm/
+
+# Optional Yarn cache directory
+.yarn/
+
+# dotenv environment variable files
+.env
+.env.local
+.env.*.local
+
+# Testing output
+coverage/
+.nyc_output/
+
+# Debug files
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git-specific files
+.git/
+*.orig
+
+# Temporary files
+*.cache
+*.tmp
+*.bak
+~$*
+
+# Editor-specific files
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Ignore Angular cache (if applicable)
+.angular/
