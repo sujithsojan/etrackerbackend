@@ -24,7 +24,7 @@ db.once('open', () => {
   console.log('Connected to MongoDB');
 });
 
-// Expense Schema
+
 const expenseSchema = new mongoose.Schema({
   userId: String,
   date: String,
